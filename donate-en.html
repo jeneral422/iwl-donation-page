@@ -50,13 +50,15 @@ Bank of Palestine (USD)<br>
 </div>
 
 <script>
-function pay(){
-LahzaCheckout.open({
-key:"pk_test_qN6jwvF60fLf3tbtEDup45UUjLUDprH8I",
-amount:document.getElementById("amount").value,
-currency:document.getElementById("currency").value,
-callback_url:"thankyou.html"
-});
+function payWithLahza() {
+  LahzaCheckout.open({
+    key: "pk_test_qN6jwvF60fLf3tbtEDup45UUjLUDprH8I",
+    amount: 10,
+    currency: "USD",
+    name: "Initiators Without Limits",
+    description: "Donation",
+    callback_url: "thankyou.html"
+  });
 }
 </script>
 </body>
