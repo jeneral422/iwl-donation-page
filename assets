@@ -1,10 +1,6 @@
-صيغة قانونية آمنة:
-عربي:
-جميع التبرعات تُستخدم للأغراض الإنسانية والخيرية فقط.
-تتم معالجة المدفوعات الإلكترونية عبر مزودي خدمات معتمدين.
-Initiators Without Limits لا تخزن أي بيانات بنكية للمتبرعين.
-
-English:
-All donations are used strictly for humanitarian purposes.
-Online payments are processed through certified payment providers.
-Initiators Without Limits does not store donors’ banking information.
+function donateCard() {
+  window.open(
+    "https://checkout.lahza.io/pay/pk_test_qN6jwvF60fLf3tbtEDup45UUjLUDprH8I",
+    "_blank"
+  );
+}
